@@ -10,6 +10,7 @@ body {
   justify-content: center;
 }
 .header {
+  display: flex;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -18,7 +19,7 @@ body {
   border-bottom: 1px solid seashell;
   align-items: center;
 }
-.header-image {
+.header img {
   display: inline-block;
   height: 50px;
   margin-left: 10px;
@@ -27,7 +28,7 @@ body {
 .nav {
   color: seashell;
   display: block;
-  text-align: right:center;
+  text-align: right;
   flex-grow: 1;
   justify-content: space-between;
 }
@@ -36,4 +37,23 @@ body {
   display: inline-block;
   text-decoration: underline;
   text-align: right;
+}
+/*-- Main Content Container --*/
+}
+.content {
+  width: 1200px;
+  height: 770;
+}
+
+/* -- Mission Section --*/
+.mission-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-content {
+  background-image:url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  display: flex;
 }
